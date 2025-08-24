@@ -320,7 +320,7 @@ const productos = [
         titulo: "V107",
         imagen: "./img/pantalones/V107.jpg",
         categoria: {
-            nombre: "Pantalones",
+            nombre: "Respiratorio",
             id: "pantalones"
         },
         precio: 1000
