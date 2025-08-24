@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
 
 :root {
-    --clr-main: #386641;
+    --clr-main: #ef233c ;
     --clr-white: white;
     --clr-gray: #ffffff;
     --clr-red: #21251D;
@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   font-family: "Playwrite DK Loopet",;
+    font-family: "Merriweather", serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
@@ -54,17 +54,24 @@ font-size: 1.3rem;
 }
 
 .titulo-footer{
-    font-family: "Henny Penny", system-ui;
+    font-family: "Merriweather", serif;
     font-size: 10px;
     font-weight: 400 bold;
+    
 }
 
 .titulo-pagina{
-    font-family: "Henny Penny", system-ui;
+    font-family: "Merriweather", serif;
     font-weight: bold 800;
     font-style: normal;
-    font-size: 35px;
-    margin-top: 40px;
+    font-size: 55px;
+    margin-top: 100px;
+}
+
+.subtitulo-pagina{
+    font-family: "Merriweather", serif;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .boton-menu{
@@ -78,11 +85,12 @@ font-size: 1.3rem;
     padding: 1rem;
     font-size: .85rem;
     width: 100%;
+    font-family: "Oswald", sans-serif;
 }
 
 .boton-menu.active{
     background-color: var(--clr-gray);
-    color: var(--clr-main);
+    color: black;
     width: 100%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius:1rem;
@@ -153,8 +161,9 @@ main{
 }
 
 .titulo-principal{
-    color: var(--clr-main);
+    color: black;
     margin-bottom: 2rem;
+    font-family: "Oswald", sans-serif;
 
 }
 
@@ -163,32 +172,48 @@ main{
     grid-template-columns: repeat(4,1fr );
     gap: 1rem;
     text-align: center;
+    
+    
 }
 
 .producto-imagen{
     max-width: 100%;
     border-radius: 1rem;
     transition: transform 0.5s ease-in-out;
+    width: 100%;          /* ocupa todo el ancho de su celda */
+    height: 300px;        
+    object-fit: contain;
 }
 
-.producto-detalles{
+.producto-detalles {
     background-color: var(--clr-main);
     color: var(--clr-white);
     padding: .5rem;
-    border-radius:1rem;
+    border-radius: 1rem;
     margin-top: -2rem;
     position: relative;
+  
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
-}
-
-.producto-detalles:hover{
-    transform: scale(1.1);
-}
+    justify-content: center; /* centra verticalmente */
+    align-items: center;     /* centra horizontalmente */
+    gap: 0.5rem;
+  
+    height: 200px;
+    text-align: center;      /* centra el texto */
+  }
 
 .producto-titulo{
     font-size: 1rem;
+    font-family: "Sansation", sans-serif;
+    margin-top: 10px;
+}
+
+.producto-precio{
+    font-size: 1rem;
+    font-family: "Sansation", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .producto-agregar{
@@ -413,5 +438,18 @@ display: none;
         margin: 0.5rem;
         margin-left: 1vh;
         padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-footer {
+        display: block;
+        width: 100%;
+        margin-top: 2rem; /* espacio desde el contenido */
+        text-align: center;
+        background-color: var(--clr-main);
+        color: var(--clr-white);
+        padding: 1rem;
+        border-radius: 1rem 1rem 0 0;
     }
 }

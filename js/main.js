@@ -1,187 +1,332 @@
 const productos = [
     // Abrigos
-    {
-        id: "abrigo-01",
-        titulo: "Abrigo 01",
-        imagen: "./img/abrigos/01.jpg",
-        categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
-        },
-        precio: 1000
-    },
+
     {
         id: "abrigo-02",
-        titulo: "Abrigo 02",
-        imagen: "./img/abrigos/02.jpg",
+        titulo: "ADAPTADOR ESCALONADO",
+        imagen: "./img/abrigos/adaptador-escalonado.png",
         categoria: {
-            nombre: "Abrigos",
+            nombre: "Alimentación",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 1111111
     },
+
+    {
+        id: "abrigo-01",
+        titulo: "ADAPTADOR ENFIT-ENLOCK",
+        imagen: "./img/abrigos/adaptador-enfit-enlock.jpg",
+        categoria: {
+            nombre: "Alimentación",
+            id: "abrigos"
+        },
+        precio: 1307952
+    },
+  
     {
         id: "abrigo-03",
-        titulo: "Abrigo 03",
-        imagen: "./img/abrigos/03.jpg",
+        titulo: "BOMBA FREE GO",
+        imagen: "./img/abrigos/bomba-freego-alimentacion.jpg",
         categoria: {
             nombre: "Abrigos",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 1305359
     },
     {
         id: "abrigo-04",
-        titulo: "Abrigo 04",
-        imagen: "./img/abrigos/04.jpg",
+        titulo: "SET ALIMENTACIÓN ENTERAL KANGAROO",
+        imagen: "./img/abrigos/set-alimentacion-enteral-kangaroo.jpg",
         categoria: {
             nombre: "Abrigos",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 1300493
     },
     {
         id: "abrigo-05",
-        titulo: "Abrigo 05",
-        imagen: "./img/abrigos/05.jpg",
+        titulo: "SONDA K108 NUTRICIÓN ENTERAL ADULTO 8FR",
+        imagen: "./img/abrigos/sonda-k108-nutricion-enteral-adulto-8-fr.jpg",
         categoria: {
             nombre: "Abrigos",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 1303617
     },
-    // Camisetas
+
     {
-        id: "camiseta-01",
-        titulo: "Camiseta 01",
-        imagen: "./img/camisetas/01.jpg",
+        id: "abrigo-00",
+        titulo: "SONDA K10 PARA INTUBACIÓN GÁSTRICA 5,3MM 16FR",
+        imagen: "./img/abrigos/sonda-k10-intubacion-nasogastrica.jpg",
         categoria: {
             nombre: "Camisetas",
-            id: "camisetas"
+            id: "abrigos"
         },
-        precio: 1000
+        precio: 1300887
     },
+  
     {
-        id: "camiseta-02",
-        titulo: "Camiseta 02",
-        imagen: "./img/camisetas/02.jpg",
+        id: "abrigo-06",
+        titulo: "SONDA K30 PARA ALIMENTACIÓN NASOGÁSTRICA PREMATURO DE 2MM.",
+        imagen: "./img/abrigos/sonda-k30-alimentacion-nasogastrica-2mm.jpg",
         categoria: {
             nombre: "Camisetas",
-            id: "camisetas"
+            id: "abrigos"
         },
-        precio: 1000
+        precio: 1300893
     },
+
+    {
+        id: "abrigo-07",
+        titulo: "SONDA K30 SILICONADA PARA ALIMENTACIÓN NASOGÁSTRICA DE 2MM.",
+        imagen: "./img/abrigos/sonda-k30-siliconada.jpg",
+        categoria: {
+            nombre: "Camisetas",
+            id: "abrigos"
+        },
+        precio: 1300894
+    },
+
+    {
+        id: "abrigo-08",
+        titulo: "SONDA K30P PARA ALIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 12MM.",
+        imagen: "./img/abrigos/SONDA K30P PARA ALIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 12MM..jpg",
+        categoria: {
+            nombre: "Abrigos",
+            id: "abrigos"
+        },
+        precio: 1300922
+    },
+
+    {
+        id: "abrigo-09",
+        titulo: "SONDA K31P PARA ALIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 2‚3MM.",
+        imagen: "./img/abrigos/SONDA K31 SILICONADA 2-3MM..jpg",
+        categoria: {
+            nombre: "Abrigos",
+            id: "abrigos"
+        },
+        precio: 1300896
+    },
+
+    {
+        id: "abrigo-09",
+        titulo: "SONDA K31P PARA ALIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 2‚3MM.",
+        imagen: "./img/abrigos/SONDA K31P PARA ALIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 2.3MM..jpg",
+        categoria: {
+            nombre: "Abrigos",
+            id: "abrigos"
+        },
+        precio: 1300923
+    },
+
+    {
+        id: "abrigo-09",
+        titulo: "SONDA K33 PARA ALIMENTACIÓN NASOGÁSTRICA PREMATURO DE 2MM.",
+        imagen: "./img/abrigos/SONDA K33 PARA ALIMENTACIÓN NASOGÁSTRICA PREMATURO DE 2MM.jpg",
+        categoria: {
+            nombre: "Abrigos",
+            id: "abrigos"
+        },
+        precio: 1300898
+    },
+
+    {
+        id: "abrigo-09",
+        titulo: "SONDA K33P PARA ALIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 2MM.",
+        imagen: "./img/abrigos/SONDA K33P PARA ALIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 2MM.jpg",
+        categoria: {
+            nombre: "Abrigos",
+            id: "abrigos"
+        },
+        precio: 1300925
+    },
+
+    {
+        id: "abrigo-09",
+        titulo: "SONDA K35 PARA ALIMENTACIÓN NASOGÁSTRICA PREMATURO DE 2MM.",
+        imagen: "./img/abrigos/SONDA K35 PARA ALIMENTACIÓN NASOGÁSTRICA PREMATURO DE 2MM.jpg",
+        categoria: {
+            nombre: "Abrigos",
+            id: "abrigos"
+        },
+        precio: 1300901
+    },
+
+    {
+        id: "abrigo-09",
+        titulo: "SONDA K35P PARA ALIMIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 2MM.",
+        imagen: "./img/abrigos/SONDA K35P PARA ALIMIMENTACIÓN NASOGÁSTRICA CON REGULADOR DE 2MM.jpeg",
+        categoria: {
+            nombre: "Abrigos",
+            id: "abrigos"
+        },
+        precio: 1300925
+    },
+
+    {
+        id: "abrigo-09",
+        titulo: "SONDA K9 PARA INTUBACIÓN GÁSTRICA 4MM. 12FR",
+        imagen: "./img/abrigos/SONDA K9 PARA INTUBACIÓN GÁSTRICA  4MM. 12FR.jpg",
+        categoria: {
+            nombre: "Abrigos",
+            id: "abrigos"
+        },
+        precio: 1300886
+    },
+
+
+
+
+  // Camisetas
+
+
     {
         id: "camiseta-03",
-        titulo: "Camiseta 03",
-        imagen: "./img/camisetas/03.jpg",
+        titulo: "ALGODERM FIBRA",
+        imagen: "./img/camisetas/ALGODERM FIBRA.jpg",
         categoria: {
-            nombre: "Camisetas",
+            nombre: "Piel",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 1301063
     },
     {
         id: "camiseta-04",
-        titulo: "Camiseta 04",
-        imagen: "./img/camisetas/04.jpg",
+        titulo: "ALGODÓN C/COLA LARGO SUPER 2,5X10CM",
+        imagen: "./img/camisetas/ALGODÓN CCOLA LARGO SUPER 2.5X10CM.jpg",
         categoria: {
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 1313710
     },
     {
         id: "camiseta-05",
-        titulo: "Camiseta 05",
-        imagen: "./img/camisetas/05.jpg",
+        titulo: "ALGODÓN ESTERIL EXTRA GRANDE CON COLA POR 10 UNIDADES",
+        imagen: "./img/camisetas/ALGODÓN CCOLA LARGO SUPER 2.5X10CM.jpg",
         categoria: {
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 1300419
     },
     {
         id: "camiseta-06",
-        titulo: "Camiseta 06",
-        imagen: "./img/camisetas/06.jpg",
+        titulo: "ALGODÓN ESTERIL GRANDE CON COLA POR 10 UNIDADES",
+        imagen: "./img/camisetas/ALGODÓN ESTERIL GRANDE CON COLA POR  10 UNIDADES.jpg",
         categoria: {
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 1300418
     },
     {
         id: "camiseta-07",
-        titulo: "Camiseta 07",
-        imagen: "./img/camisetas/07.jpg",
+        titulo: "ALGODÓN ESTERIL MEDIANO CON COLA POR 10 UNIDADES",
+        imagen: "./img/camisetas/ALGODÓN ESTERIL GRANDE CON COLA POR  10 UNIDADES.jpg",
         categoria: {
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 1300417
     },
     {
         id: "camiseta-08",
-        titulo: "Camiseta 08",
-        imagen: "./img/camisetas/08.jpg",
+        titulo: "ALGODÓN POR 500GR",
+        imagen: "./img/camisetas/ALGODÓN POR 500GR.jpg",
         categoria: {
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 1300617
     },
-    // Pantalones
+   
     {
         id: "pantalon-01",
-        titulo: "Pantalón 01",
-        imagen: "./img/pantalones/01.jpg",
+        titulo: "APOSITO 9X20CM.X5 UN. SIMPLE EMPAQUE",
+        imagen: "./img/camisetas/APOSITO 9X20CMX5 UN SIMPLE EMPAQUE.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Camisetas",
+            id: "camisetas"
         },
-        precio: 1000
+        precio: 1303233
     },
+
+    {
+        id: "pantalon-01",
+        titulo: "APOSITO TEGADERM CHICO 6X7",
+        imagen: "./img/camisetas/APOSITO TEGADERM CHICO 6X7.jpg",
+        categoria: {
+            nombre: "Camisetas",
+            id: "camisetas"
+        },
+        precio: 1300601
+    },
+
+
+    {
+        id: "pantalon-01",
+        titulo: "APOSITO TEGADERM GRANDE 10X25",
+        imagen: "./img/camisetas/APOSITO TEGADERM GRANDE 10X25.jpg",
+        categoria: {
+            nombre: "Camisetas",
+            id: "camisetas"
+        },
+        precio: 1300605
+    },
+
+    {
+        id: "pantalon-01",
+        titulo: "APOSITO TEGADERM MEDIANO 10X12",
+        imagen: "./img/camisetas/APOSITO TEGADERM MEDIANO 10X12.jpg",
+        categoria: {
+            nombre: "Camisetas",
+            id: "camisetas"
+        },
+        precio: 1300605
+    },
+
+    {
+        id: "pantalon-01",
+        titulo: "APOSITO TEGADERM CON CLORHEXIDINA",
+        imagen: "./img/camisetas/APOSITO TEGADERM CON CLORHEXIDINA.png",
+        categoria: {
+            nombre: "Camisetas",
+            id: "camisetas"
+        },
+        precio: 1304495
+    },
+
+    {
+        id: "pantalon-01",
+        titulo: "APOSITO TRANSPARENTE TEGADERM IV 1685",
+        imagen: "./img/camisetas/APOSITO TRANSPARENTE TEGADERM IV 1685.png",
+        categoria: {
+            nombre: "Camisetas",
+            id: "camisetas"
+        },
+        precio: 1307117
+    },
+
+
+
+
+ // Pantalones
+
+
     {
         id: "pantalon-02",
-        titulo: "Pantalón 02",
-        imagen: "./img/pantalones/02.jpg",
+        titulo: "V107",
+        imagen: "./img/pantalones/V107.jpg",
         categoria: {
             nombre: "Pantalones",
             id: "pantalones"
         },
         precio: 1000
     },
-    {
-        id: "pantalon-03",
-        titulo: "Pantalón 03",
-        imagen: "./img/pantalones/03.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
-    },
-    {
-        id: "pantalon-04",
-        titulo: "Pantalón 04",
-        imagen: "./img/pantalones/04.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
-    },
-    {
-        id: "pantalon-05",
-        titulo: "Pantalón 05",
-        imagen: "./img/pantalones/05.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
-    }
+    
+    
 ];
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
@@ -203,8 +348,7 @@ function cargarProductos(productosElegidos) {
      <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}" >
      <div class="producto-detalles">
       <h3 class="producto-titulo">${producto.titulo}</h3>
-       <p class="producto-precio">$${producto.precio}</p>
-        <button class="producto-agregar" id="${producto.id}">Agregar</button>
+       <h2 class="producto-precio">CÓDIGO ${producto.precio}</h2>
      </div>
     </div>
         `;
@@ -229,7 +373,7 @@ botonesCategorias.forEach(boton =>{
         const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id)
         cargarProductos(productosBoton);
         } else {
-            tituloPrincipal.innerText = "Todos los productos";
+            tituloPrincipal.innerText = "Todos los descartables";
             cargarProductos(productos);
         }
     })
